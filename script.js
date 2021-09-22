@@ -49,5 +49,3 @@ const typeWriterEffect = () => {
 window.onload = () => {
     typeWriterEffect()
 }
-
-console.log('test')
