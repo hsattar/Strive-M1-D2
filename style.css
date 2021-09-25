@@ -184,18 +184,15 @@ section h2 {
 }
 
 .education {
-    background-color: #01ff0e;
-    color: #fff;
+    border: 3px solid #01ff0e;
 }
 
 .drop-out {
-    background-color: #ff0101;
-    color: #fff;
+    border: 3px solid #ff0101;
 }
 
 .work {
-    background-color: #0059ff;
-    color: #fff;
+    border: 3px solid #0059ff;
 }
 
 .experience-information {
@@ -281,12 +278,16 @@ footer a:hover {
     }
 
     .experience-information {
-        padding: .1rem 0;
+        padding: .75rem 0;
+    }
+
+    .experience-information h3{
+        padding: .5rem 0;
     }
 
     .experience-information p {
         margin: 0;
-        padding: .1rem 0;
+        padding: .5rem 0;
     }
 
 }
