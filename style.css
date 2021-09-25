@@ -153,6 +153,11 @@ section h2 {
     justify-content: center;
 }
 
+.experience-section-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .experience-container {
     width: 60vw;
     border: 1px solid var(--dark-text);
@@ -161,6 +166,7 @@ section h2 {
     align-items: center;
     text-align: center;
     max-height: 100px;
+    margin: 1rem 0;
 }
 
 .date-container {
