@@ -153,7 +153,12 @@ section h2 {
 
 /* EXPEREIENCE SECTION */
 
-#experience-section  {
+#education-section {
+    padding-top: 1rem;
+    margin-bottom: 0.25rem;
+}
+
+.experience-section  {
     display: flex;
     justify-content: center;
 }
@@ -311,6 +316,10 @@ footer a:hover {
     
     .work-date {
         border-bottom: 3px solid #0059ff;
+    }
+
+    .experience-container {
+        width: 95vw;
     }
 
 }
