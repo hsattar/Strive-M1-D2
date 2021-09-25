@@ -97,7 +97,14 @@ section h2 {
 
 .about-me-heading {
     font-size: 5rem;
-    padding: 1.5rem;
+    padding: .75rem;
+    margin: 0;
+}
+
+.fancy-letter {
+    font-family: 'Bonheur Royale', cursive;
+    font-size: 10rem;
+    margin-right: 0.5rem;
 }
 
 .about-me-text p {
@@ -110,7 +117,21 @@ section h2 {
 }
 
 .about-me-details p {
-    margin: 2rem;
+    margin: 1.5rem;
+}
+
+.social-icons {
+    margin-top: 3rem;
+}
+
+.social-icons a {
+    color: var(--dark-text);
+    font-size: 2rem;
+    margin: 0 0.5rem;
+}
+
+.social-icons a:hover {
+    font-size: 2.25rem;
 }
 
 /* HOBBIES SECTION */
@@ -236,16 +257,6 @@ footer {
     padding: 1rem;
 }
 
-footer a {
-    color: var(--dark-text);
-    font-size: 1.5rem;
-    margin: 0 0.5rem;
-}
-
-footer a:hover {
-    font-size: 1.75rem;
-}
-
 /* REPSONSIVE MEDIA QUERIES */
 /* 
 320 - 480 - MOBILE DEVICES  
@@ -264,12 +275,25 @@ footer a:hover {
     
     #hero-section {
         flex-direction: column;
-        padding-top: 25px;
+        padding-top: 60px;
     }
 
-    .about-me-heading, 
+    .about-me-heading {
+        margin-bottom: 0;
+        padding: 0;
+        padding-top: .5rem;
+    }
+
     .about-me-text p  {
         margin-bottom: 2rem;
+    }
+
+    .social-icons {
+        margin-bottom: 3rem;
+    }
+
+    .my-img {
+        height: 175px;
     }
 
     .hobbies-and-interests {
