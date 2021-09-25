@@ -154,10 +154,23 @@ section h2 {
 }
 
 .experience-container {
-    height: 100px;
     width: 60vw;
-    border: 1px solid black;
+    border: 1px solid var(--dark-text);
     border-radius: .5rem;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    max-height: 100px;
+}
+
+.date-container {
+    width: 150px;
+    border-right: 1px solid var(--dark-text);
+    align-self: center;
+}
+
+.experience-information {
+    width: 100%;
 }
 
 .experience-table {
