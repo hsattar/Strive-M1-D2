@@ -148,6 +148,18 @@ section h2 {
 
 /* EXPEREIENCE SECTION */
 
+#experience-section  {
+    display: flex;
+    justify-content: center;
+}
+
+.experience-container {
+    height: 100px;
+    width: 60vw;
+    border: 1px solid black;
+    border-radius: .5rem;
+}
+
 .experience-table {
     display: flex;
     justify-content: center;
